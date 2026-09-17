@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class="box"> </div>
+
+    <div id="colour" style="height:200px; width:200px;">
+        <img height="200px"  id="imgbox">
+    </div>
+
+    <button id="bird">bird</button>
+    <button id="colourbtn"> colour </button>
+
+    <script>
+        const bird = document.querySelector("#bird")
+        const colourbtn = document.querySelector("#colourbtn")
+        const imgbox = document.querySelector("#imgbox")
+        const colour = document.querySelector("#colour")
+
+        bird.addEventListener("click", function img() {
+            imgbox.src = "https://cdn.pixabay.com/photo/2026/08/14/03/23/03-23-30-321_1280.jpg"
+            colour.style.backgroundColor = ""
+
+        })
+
+        colourbtn.addEventListener("click", function colourfun() {
+           
+            colour.style.backgroundColor = "red"
+            console.log(colour);
+            imgbox.src = "";
+
+        })
+
+    </script>
+     
+
+    
+
+
+</body>
+
+</html>
