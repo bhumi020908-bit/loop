@@ -1,51 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<style>
-
-</style>
-
-<body>
-    <div class="box"> </div>
-
-    <div id="colour" style="height:200px; width:200px;">
-        <img height="200px"  id="imgbox">
-    </div>
-
-    <button id="bird">bird</button>
-    <button id="colourbtn"> colour </button>
-
-    <script>
-        const bird = document.querySelector("#bird")
-        const colourbtn = document.querySelector("#colourbtn")
-        const imgbox = document.querySelector("#imgbox")
-        const colour = document.querySelector("#colour")
-
-        bird.addEventListener("click", function img() {
-            imgbox.src = "https://cdn.pixabay.com/photo/2026/08/14/03/23/03-23-30-321_1280.jpg"
-            colour.style.backgroundColor = ""
-
-        })
-
-        colourbtn.addEventListener("click", function colourfun() {
-           
-            colour.style.backgroundColor = "red"
-            console.log(colour);
-            imgbox.src = "";
-
-        })
-
-    </script>
-     
-
-    
-
-
-</body>
-
+<html>
+    <head>
+        <title> </title>
+    </head>
+    <body>
+        <video src="./365737_medium.mp4" controls muted loop autoplay height="200"></video><hr>
+        <img src="https://cdn.pixabay.com/photo/2026/07/08/17/11/17-11-24-590_1280.jpg"alt="logo" height="200" >
+        <br> <hr>
+        <audio src="./alexzavesa-dance-playful-night-510786.mp3" controls autoplay loop ></audio>
+            <br> <hr>
+            
+        <a href="https://google.com"> google link</a>
+        <a href="https://google.com/"> google link </a>
+    </body>
 </html>
